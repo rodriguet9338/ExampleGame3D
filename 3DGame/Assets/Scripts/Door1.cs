@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Door : MonoBehaviour {
-	public bool Slide;	// Reference to the animator bool to trigger the state.
+public class Door1 : MonoBehaviour {
+	public bool Swing;	// Reference to the animator bool to trigger the state.
 
 	private Animator anim;		// Reference to the animator component.
 	private GameObject player;
@@ -21,10 +21,10 @@ public class Door : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider other){
-		anim.SetBool("Slide", true);
+		anim.SetBool("Swing", true);
 			}
 
 	void OnTriggerExit (Collider other){
-		anim.SetBool("Slide", false);
+		anim.SetBool("Swing", false);
 	}
 }
