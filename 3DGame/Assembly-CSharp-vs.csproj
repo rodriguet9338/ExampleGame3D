@@ -49,6 +49,7 @@
      <Compile Include="Assets\Meshes\S_Machine\Crane.cs" />
      <Compile Include="Assets\Meshes\S_Machine\Engine.cs" />
      <Compile Include="Assets\Scripts\Door1.cs" />
+     <Compile Include="Assets\Scripts\Kill.cs" />
      <Compile Include="Assets\Scripts\SnappingCrane.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
